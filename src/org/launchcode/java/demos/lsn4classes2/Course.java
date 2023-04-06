@@ -10,6 +10,11 @@ public class Course {
     // TODO: Add your custom 'toString' method here. Make sure it returns a well-formatted String rather than
     //  just the class fields.
 
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
 
     // TODO: Add your custom 'equals' method here. Consider which fields should match in order to call two
     //  Course objects equal.
