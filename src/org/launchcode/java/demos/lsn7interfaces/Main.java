@@ -23,6 +23,7 @@ public class Main {
         //flavors.sort(new FlavorComparator());
 
         System.out.println("After: ");
+
         for(Flavor flavor : flavors) {
             System.out.println(flavor.getName());
         }
